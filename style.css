@@ -1,9 +1,55 @@
-.calendar th, td{
-    border: solid 1px black;
-    width:40px;
-    height: 30px;
-  }
-  
-  .calendar{
-    text-align:center;
-  }
+body{git ad
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input[type="date"]{
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#diasEntre{
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+table.calendar{
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 500px;
+}
+
+table.calendar th, table.calendar td{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+table.calendar thead{
+    background-color: #e0e0e0;
+}
+
+button.clear{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff5252;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.clear:hover{
+    background-color: #e53935;
+}
